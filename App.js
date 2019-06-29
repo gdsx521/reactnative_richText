@@ -33,16 +33,6 @@ export default class App extends Component<Props> {
 
             </View>
         )
-
-        // return (
-        //     <View style={styles.view}>
-        //
-        //         {this._getNavbar()}
-        //
-        //         {this._getScrollContentView()}
-        //
-        //     </View>
-        // )
     }
 
     _getNavbar() {
