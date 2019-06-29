@@ -89,6 +89,10 @@ export default class App extends Component<Props> {
             },
 
         ]
+       objs =  objs.concat(objs)
+        objs =  objs.concat(objs)
+        objs =  objs.concat(objs)
+        objs =  objs.concat(objs)
 
         //
         let textViewArr = []
