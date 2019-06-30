@@ -9,17 +9,14 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View,Image} from 'react-native';
 
-import MJRefresh, {ScrollView} from 'react-native-mjrefresh'//rn>=0.55
 import DJStyleTools from './Tools/DJStyleTools'
 import DJSizeTools from './Tools/DJSizeTools'
 import QianTaoText from './Tools/QianTaoText'
 
 
-type Props = {};
+
 export default class App extends Component<Props> {
-    state = {
-        text: '下拉刷新'
-    }
+
 
     render() {
         return (
